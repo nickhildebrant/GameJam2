@@ -15,11 +15,11 @@ C:/Users/Jtex/Documents/GitHub/GameJam2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56405
+57286
 Successfully changed project path to: C:/Users/Jtex/Documents/GitHub/GameJam2
 C:/Users/Jtex/Documents/GitHub/GameJam2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity Hub/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001283 seconds.
+Registered in 0.001122 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1124ms)
+	ReloadAssembly (1101ms)
 		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (387ms)
+		EndReloadAssembly (369ms)
 			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (143ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (138ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
+				RefreshPlugins (28ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004212 seconds.
+Registered in 0.004057 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  0.961 seconds
 Domain Reload Profiling:
-	ReloadAssembly (989ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (772ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (270ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (268ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 79.3 MB.
 System memory in use after: 79.4 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 1.977300 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.670400 ms  DeleteObjects: 0.064400 ms)
+Total: 2.131700 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.902200 ms  DeleteObjects: 0.071800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,16 +131,641 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(1b0cc73707e2c9d468b454b3e1196709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(1b0cc73707e2c9d468b454b3e1196709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e9a8773eeb3f1bcfcbe26c3051c5c0') in 0.050557 seconds 
-  Import took 0.052674 seconds .
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlatCurve.fbx
+  artifactKey: Guid(0e14036402afc8740aabe4ae39b75d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlatCurve.fbx using Guid(0e14036402afc8740aabe4ae39b75d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f6eb000276bc84fcce5b894b55b50') in 0.183111 seconds 
+  Import took 0.185402 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/ImportedAssets/_TerrainAutoUpgrade
-  artifactKey: Guid(92b18b0ed41e7924198c48608b53efae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/_TerrainAutoUpgrade using Guid(92b18b0ed41e7924198c48608b53efae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa4566d10b7e12aa6a7564a7585d825') in 0.006483 seconds 
-  Import took 0.008441 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_splitBarrier.fbx
+  artifactKey: Guid(c8afcca46869a7746a50f7c8a37908d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_splitBarrier.fbx using Guid(c8afcca46869a7746a50f7c8a37908d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077917a80912afd0f5cc10c2dd07d088') in 0.019922 seconds 
+  Import took 0.022158 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadBarrier.fbx
+  artifactKey: Guid(3feb948d1e8e18b4d8d588936b4b4da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadBarrier.fbx using Guid(3feb948d1e8e18b4d8d588936b4b4da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b340ddb1761166443250c28a8e4ac8') in 0.017460 seconds 
+  Import took 0.019681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendBarrier.fbx
+  artifactKey: Guid(c56531b85028ef14d95a5dea2e1f143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendBarrier.fbx using Guid(c56531b85028ef14d95a5dea2e1f143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1fc43ca50a4a764a2a67ba4e5a5647') in 0.021683 seconds 
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantCurve.fbx
+  artifactKey: Guid(2a37f004bafd13743a35614a1b88efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantCurve.fbx using Guid(2a37f004bafd13743a35614a1b88efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7128568aa23195073a9f854b67f23b3b') in 0.030023 seconds 
+  Import took 0.032131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareDouble.fbx
+  artifactKey: Guid(234dd5deddb60ca41b69c0f55c9a2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareDouble.fbx using Guid(234dd5deddb60ca41b69c0f55c9a2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62acd4007638b3c5b1689550db8dd40') in 0.021962 seconds 
+  Import took 0.024373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_square.fbx
+  artifactKey: Guid(64b8da900f62c39479276b59bcb30019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_square.fbx using Guid(64b8da900f62c39479276b59bcb30019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0104211e2100e021b819ee7f4f48fc76') in 0.023693 seconds 
+  Import took 0.025947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareDouble.fbx
+  artifactKey: Guid(234dd5deddb60ca41b69c0f55c9a2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareDouble.fbx using Guid(234dd5deddb60ca41b69c0f55c9a2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62acd4007638b3c5b1689550db8dd40') in 0.021325 seconds 
+  Import took 0.023507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewaySingleBarrier.fbx
+  artifactKey: Guid(5fc16d88efcbe874ba41ed4de16516dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewaySingleBarrier.fbx using Guid(5fc16d88efcbe874ba41ed4de16516dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0971a604afe307724ab26e049412b829') in 0.016878 seconds 
+  Import took 0.019258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantCurveBarrier.fbx
+  artifactKey: Guid(e7c0d660aa692ce45830bcdc1a628c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantCurveBarrier.fbx using Guid(e7c0d660aa692ce45830bcdc1a628c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e838a377b5e6fa39364bb6620c42366') in 0.017177 seconds 
+  Import took 0.019749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_straight.fbx
+  artifactKey: Guid(c976a738e81bd874ea5723188b88909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_straight.fbx using Guid(c976a738e81bd874ea5723188b88909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13e30a05e39b35b7566265643af5003') in 0.028871 seconds 
+  Import took 0.031623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlat.fbx
+  artifactKey: Guid(412ed13a517e80042af5ee3edbd4835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlat.fbx using Guid(412ed13a517e80042af5ee3edbd4835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551fe5645e0159b9dbeb4256e3764d03') in 0.029066 seconds 
+  Import took 0.031264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSquareBarrier.fbx
+  artifactKey: Guid(ba7fd06151436874fbc1adc16a62f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSquareBarrier.fbx using Guid(ba7fd06151436874fbc1adc16a62f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618df2ffd94263dfb85bbdd4ff0b6ccc') in 0.017799 seconds 
+  Import took 0.020130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadPath.fbx
+  artifactKey: Guid(f424e13743443804f815100af60b44ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadPath.fbx using Guid(f424e13743443804f815100af60b44ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e31fbe294f9f683b485402796e2a99') in 0.028180 seconds 
+  Import took 0.030529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/tile_high.fbx
+  artifactKey: Guid(6ea1d4bfcb905294cac694320ccc50c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/tile_high.fbx using Guid(6ea1d4bfcb905294cac694320ccc50c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b075ecd65821613d24e2249898a792c') in 0.018527 seconds 
+  Import took 0.020970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideExit.fbx
+  artifactKey: Guid(669f3cf2c02d11447b9896bc16b798e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideExit.fbx using Guid(669f3cf2c02d11447b9896bc16b798e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02db630d4b4809156ce5974a2bc4535') in 0.031871 seconds 
+  Import took 0.034046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_roundaboutBarrier.fbx
+  artifactKey: Guid(a45489a85fac3c145801945e82cbad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_roundaboutBarrier.fbx using Guid(a45489a85fac3c145801945e82cbad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d651a3f7be4fdce310747506119914') in 0.019371 seconds 
+  Import took 0.021614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveIntersection.fbx
+  artifactKey: Guid(585d6930674885b43a5ed9228ae3dde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveIntersection.fbx using Guid(585d6930674885b43a5ed9228ae3dde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a282ab3d0f07b7430b99e8d8a1d430') in 0.031663 seconds 
+  Import took 0.033998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantBarrier.fbx
+  artifactKey: Guid(b3db08db12d67b64dbb51aa797ea62d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantBarrier.fbx using Guid(b3db08db12d67b64dbb51aa797ea62d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218fe4ae32f4c7676898ab71d1d279d5') in 0.018475 seconds 
+  Import took 0.020629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/tile_low.fbx
+  artifactKey: Guid(44f7288fe5c553f4ba71dd3d8a70343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/tile_low.fbx using Guid(44f7288fe5c553f4ba71dd3d8a70343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690e98810fade0e6a60eb449a542785d') in 0.017716 seconds 
+  Import took 0.019909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossing.fbx
+  artifactKey: Guid(86f3ebcce11199440a366584be270173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossing.fbx using Guid(86f3ebcce11199440a366584be270173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adda84bcc9c018ae70ba9c5973c3d6d') in 0.030777 seconds 
+  Import took 0.032975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/bridge_pillarWide.fbx
+  artifactKey: Guid(99d9d5c53f077ab4ca84d2c930c0c8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/bridge_pillarWide.fbx using Guid(99d9d5c53f077ab4ca84d2c930c0c8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd4c90f4d38cfbc81a795b93d2144e') in 0.022709 seconds 
+  Import took 0.024855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewayDouble.fbx
+  artifactKey: Guid(16adcfdcc887c8d43b704b79f8b397a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewayDouble.fbx using Guid(16adcfdcc887c8d43b704b79f8b397a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becfd2645b533935f0b34c84274fdb5f') in 0.028798 seconds 
+  Import took 0.031064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersection.fbx
+  artifactKey: Guid(fd56f59662a816c47a1921dfbcff44d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersection.fbx using Guid(fd56f59662a816c47a1921dfbcff44d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82c38bfc6e73ebba8c030acc46b187') in 0.027976 seconds 
+  Import took 0.030117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_curved.fbx
+  artifactKey: Guid(4c1562ae068c64344849f85a041eb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_curved.fbx using Guid(4c1562ae068c64344849f85a041eb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d21e3b5e720e0011d0b4f1452c139cb') in 0.024518 seconds 
+  Import took 0.026807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_square.fbx
+  artifactKey: Guid(1370f71f178e4f342b3c4384587029b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_square.fbx using Guid(1370f71f178e4f342b3c4384587029b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c16f2c33480b7a4c57ae2676ae6d881') in 0.021277 seconds 
+  Import took 0.023505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_side.fbx
+  artifactKey: Guid(a665110fa2e7a314795da3babae3c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_side.fbx using Guid(a665110fa2e7a314795da3babae3c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89a487f84d4a20f4ca3f176cc167e7e') in 0.027428 seconds 
+  Import took 0.029960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSidewalk.fbx
+  artifactKey: Guid(b86c118c9a2626340b6c79c1b35fbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSidewalk.fbx using Guid(b86c118c9a2626340b6c79c1b35fbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab3fba8b481051d3889d0171c74114') in 0.027516 seconds 
+  Import took 0.029860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlatHigh.fbx
+  artifactKey: Guid(accdbddef6f88894999776a9c0002789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantFlatHigh.fbx using Guid(accdbddef6f88894999776a9c0002789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4fb288e48ccde33ac1d46ba7a6fd1a') in 0.028688 seconds 
+  Import took 0.031211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_squareBarrier.fbx
+  artifactKey: Guid(9b785f71945720041a1c728dc0136758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_squareBarrier.fbx using Guid(9b785f71945720041a1c728dc0136758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db875e35eb1569326ac4f9bed65d376') in 0.017208 seconds 
+  Import took 0.019937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_curvedDouble.fbx
+  artifactKey: Guid(bf24dd32e2311b041a8aae192e0a7636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_curvedDouble.fbx using Guid(bf24dd32e2311b041a8aae192e0a7636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aae8d7fbbb254c92d080c53b8ee259f') in 0.023690 seconds 
+  Import took 0.025958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionLine.fbx
+  artifactKey: Guid(2a517138fae874341a0443faf0f56c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionLine.fbx using Guid(2a517138fae874341a0443faf0f56c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ec6782a25e2b839dc1319ca891f62c') in 0.029184 seconds 
+  Import took 0.031979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewaySingle.fbx
+  artifactKey: Guid(3dbb814854af48945ba29086e303807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewaySingle.fbx using Guid(3dbb814854af48945ba29086e303807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09bf49608b53ed6f2d6840bc7384ce6') in 0.028060 seconds 
+  Import took 0.030410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_straightBarrier.fbx
+  artifactKey: Guid(2c6d5e3fbf15dea49a963011cddb1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_straightBarrier.fbx using Guid(2c6d5e3fbf15dea49a963011cddb1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f55b95b9c92d86d813a1d8a841a7b4') in 0.017294 seconds 
+  Import took 0.019764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideBarrier.fbx
+  artifactKey: Guid(03da24090da29e44b859b3189b64ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideBarrier.fbx using Guid(03da24090da29e44b859b3189b64ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4382d88982d70d2b2e3cfc944568a5d') in 0.017713 seconds 
+  Import took 0.019996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadLine.fbx
+  artifactKey: Guid(6abe11daa577ba342b498d27afde646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroadLine.fbx using Guid(6abe11daa577ba342b498d27afde646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadbbe10209cbf7eb1d0f7f2003ecd3f') in 0.029823 seconds 
+  Import took 0.032088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideEntryBarrier.fbx
+  artifactKey: Guid(395e59b4a19d5e34299444a6878fbc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideEntryBarrier.fbx using Guid(395e59b4a19d5e34299444a6878fbc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d79d9dc239276b5c81a1d379333cbc4') in 0.017986 seconds 
+  Import took 0.020206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_roundabout.fbx
+  artifactKey: Guid(61e54d87aba915f47add4eb9be2c019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_roundabout.fbx using Guid(61e54d87aba915f47add4eb9be2c019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9fb896e5193beb69703553f05dcbbe') in 0.028709 seconds 
+  Import took 0.031173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bridge.fbx
+  artifactKey: Guid(cddce0b6d179f9543ae0a75022056434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bridge.fbx using Guid(cddce0b6d179f9543ae0a75022056434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38eed038ce181df14dff1b4cb638ab1') in 0.028939 seconds 
+  Import took 0.031659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/construction_barrier.fbx
+  artifactKey: Guid(7a04033636fd654479e5053d5a257dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/construction_barrier.fbx using Guid(7a04033636fd654479e5053d5a257dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33ae400392d50b12633ca5113879fe3') in 0.018712 seconds 
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/bridge_pillar.fbx
+  artifactKey: Guid(41ee4dd97b8ce8f4e83ee09ba02eef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/bridge_pillar.fbx using Guid(41ee4dd97b8ce8f4e83ee09ba02eef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa848065fce9f18212c0bfd7c595b88') in 0.022539 seconds 
+  Import took 0.024826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareCross.fbx
+  artifactKey: Guid(7f6cb3c89027eb64ab9e6c3ec17752fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_squareCross.fbx using Guid(7f6cb3c89027eb64ab9e6c3ec17752fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd511539aa909a216d53ab0c05eab1eb0') in 0.022496 seconds 
+  Import took 0.024743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slant.fbx
+  artifactKey: Guid(164cb814ff1eddb4d9eb568bff165b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slant.fbx using Guid(164cb814ff1eddb4d9eb568bff165b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b737ebd9475f6b76eadddb4d3299741c') in 0.027564 seconds 
+  Import took 0.030274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionPath.fbx
+  artifactKey: Guid(215326045dd69ad4895c0aac1cbfdfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionPath.fbx using Guid(215326045dd69ad4895c0aac1cbfdfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756331168da0eb29d22eb52e79362ebd') in 0.027833 seconds 
+  Import took 0.030070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveBarrier.fbx
+  artifactKey: Guid(bb86d4f324d8ab34f8e25e14c16b2f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveBarrier.fbx using Guid(bb86d4f324d8ab34f8e25e14c16b2f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa20c7625df14484818f92a54a10b52a') in 0.016677 seconds 
+  Import took 0.019002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_endBarrier.fbx
+  artifactKey: Guid(63d511c99a134d146b1598254c4b52c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_endBarrier.fbx using Guid(63d511c99a134d146b1598254c4b52c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b861640cc90803b77f31776f96c0a0ce') in 0.018327 seconds 
+  Import took 0.020672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionBarrier.fbx
+  artifactKey: Guid(7a0debeefebbb074cb2a88f4f6f1151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_intersectionBarrier.fbx using Guid(7a0debeefebbb074cb2a88f4f6f1151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e4f21b477f54ae826413ddfe911f2c') in 0.016243 seconds 
+  Import took 0.018460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/tile_slant.fbx
+  artifactKey: Guid(d2fc2e829c8643140a4aebebe7b0a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/tile_slant.fbx using Guid(d2fc2e829c8643140a4aebebe7b0a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50186963dfe5711b5e1b837ef0672672') in 0.017463 seconds 
+  Import took 0.019769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/light_curvedCross.fbx
+  artifactKey: Guid(2c7da1e268f58824a9be6cb43d298d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/light_curvedCross.fbx using Guid(2c7da1e268f58824a9be6cb43d298d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f647a16f31eaebb194f8bb012f0e30') in 0.023732 seconds 
+  Import took 0.026030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_end.fbx
+  artifactKey: Guid(1fb39d66be46a4646a4ff3f3abda85f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_end.fbx using Guid(1fb39d66be46a4646a4ff3f3abda85f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761c6899e19a14ff8221dff1281d6802') in 0.029358 seconds 
+  Import took 0.031630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_curve.fbx
+  artifactKey: Guid(ff6bf95e0d8860643ad905d359cd603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_curve.fbx using Guid(ff6bf95e0d8860643ad905d359cd603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74154104d670ffc0e56b9363fe1d481e') in 0.029645 seconds 
+  Import took 0.032113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSquare.fbx
+  artifactKey: Guid(763541eb7d9402b4886a393cf1e0e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bendSquare.fbx using Guid(763541eb7d9402b4886a393cf1e0e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f1dedce95f2f0d3a7a096a4b1c3e2c') in 0.027623 seconds 
+  Import took 0.030264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideEntry.fbx
+  artifactKey: Guid(4637f98e9f812c849ae81627413f284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideEntry.fbx using Guid(4637f98e9f812c849ae81627413f284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a19a2b22d8cea5bf51e2c0f85a3da') in 0.031935 seconds 
+  Import took 0.034397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_split.fbx
+  artifactKey: Guid(f3525e4eadccdb54bba9e6e3560b8adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_split.fbx using Guid(f3525e4eadccdb54bba9e6e3560b8adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dc5c8a08f475db464711d7c4efcc7f') in 0.028542 seconds 
+  Import took 0.030799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_straightBarrierEnd.fbx
+  artifactKey: Guid(9c523a3b172712e46b4e48f487e25db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_straightBarrierEnd.fbx using Guid(9c523a3b172712e46b4e48f487e25db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02dd00122e6d7f739c8ef720ee80294') in 0.017965 seconds 
+  Import took 0.020309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantHigh.fbx
+  artifactKey: Guid(5d3229f7997c8f34885708bf8109088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantHigh.fbx using Guid(5d3229f7997c8f34885708bf8109088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72df252b9a5163596fcd7345fa65aa8') in 0.027140 seconds 
+  Import took 0.029769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_curvePavement.fbx
+  artifactKey: Guid(ad31c6773e8e97846a61ae58d6a617c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_curvePavement.fbx using Guid(ad31c6773e8e97846a61ae58d6a617c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2c40672332d26d92076f4b39d2265b') in 0.028625 seconds 
+  Import took 0.030967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantHighBarrier.fbx
+  artifactKey: Guid(490d4fd93c620bc459617e879994e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_slantHighBarrier.fbx using Guid(490d4fd93c620bc459617e879994e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53601d76ac403a08bf643ab933202fe5') in 0.017364 seconds 
+  Import took 0.019791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/tile_slantHigh.fbx
+  artifactKey: Guid(1b9dd0e3f27781d468496c40e34e3794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/tile_slantHigh.fbx using Guid(1b9dd0e3f27781d468496c40e34e3794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c29743b746c3009901243de88e21d91') in 0.018271 seconds 
+  Import took 0.020442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewayDoubleBarrier.fbx
+  artifactKey: Guid(ddd45ddfcffc54b499ae5a45d7f342e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_drivewayDoubleBarrier.fbx using Guid(ddd45ddfcffc54b499ae5a45d7f342e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27361861100150ea5fd251e81a8be75') in 0.017185 seconds 
+  Import took 0.019416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroad.fbx
+  artifactKey: Guid(89dbe2d5694d9104a8da64e0a615abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_crossroad.fbx using Guid(89dbe2d5694d9104a8da64e0a615abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0489fed3d75484f6f00442db62565f45') in 0.029048 seconds 
+  Import took 0.031471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideExitBarrier.fbx
+  artifactKey: Guid(3c4a395f563c2294b82e7497c96d4fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_sideExitBarrier.fbx using Guid(3c4a395f563c2294b82e7497c96d4fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f6cd6561868f0376eeb4d81703f130') in 0.016764 seconds 
+  Import took 0.019154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/construction_pylon.fbx
+  artifactKey: Guid(821647b80cf9a654e848b28ee95abfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/construction_pylon.fbx using Guid(821647b80cf9a654e848b28ee95abfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef51b9f8b1280711d08fcdf57597c55') in 0.020374 seconds 
+  Import took 0.022852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/construction_light.fbx
+  artifactKey: Guid(1c291bbe3ba067c45bfa875d8bb59681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/construction_light.fbx using Guid(1c291bbe3ba067c45bfa875d8bb59681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d17d9cbd2a980b85cf5ca594467810') in 0.030230 seconds 
+  Import took 0.032377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveIntersectionBarrier.fbx
+  artifactKey: Guid(955e3b20a046699469cce895d06a8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_curveIntersectionBarrier.fbx using Guid(955e3b20a046699469cce895d06a8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7690d353bca7f373897c2a11497385b0') in 0.019727 seconds 
+  Import took 0.021955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/KenneyAssets/Road Assets/FBX format/road_bend.fbx
+  artifactKey: Guid(e90d293106680a44f8193145c34f2107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KenneyAssets/Road Assets/FBX format/road_bend.fbx using Guid(e90d293106680a44f8193145c34f2107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e0df47b43b9b71112588050fcd1094') in 0.028824 seconds 
+  Import took 0.031182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 83.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 1.925100 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.052600 ms MarkObjects: 1.693500 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 83.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 2.008800 ms (FindLiveObjects: 0.131900 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.821200 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
