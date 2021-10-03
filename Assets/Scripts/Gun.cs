@@ -33,9 +33,11 @@ public class Gun : MonoBehaviour
 
     private void Shoot(){
         RaycastHit hit;
+        GetComponent<AudioSource>().Play();
         isShooting = true;
         if(Physics.Raycast(fpsCam.transform.position,fpsCam.transform.forward, out hit, range)){
             Debug.Log(hit.transform.name);
+            hit.transform.gameObject.GetComponent<Hitpoints>().TakeDamage(10);
         }
     }
 }

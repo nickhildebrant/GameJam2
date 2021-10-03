@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 public class Pathing : MonoBehaviour
 {
-    [SerializeField] private Transform player;
+    [SerializeField] private GameObject player;
     private NavMeshAgent agent;
 
     // Start is called before the first frame update
@@ -15,6 +15,6 @@ public class Pathing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.destination = player.position;
+        agent.destination = player.transform.position;
     }
 }
