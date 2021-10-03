@@ -3,9 +3,9 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     [SerializeField]
-    private float damage = 10;
+    private int damage = 10;
     [SerializeField]
-    private float range = 25;
+    private float range = 50;
     [SerializeField]
     private Camera fpsCam;
 
@@ -37,7 +37,10 @@ public class Gun : MonoBehaviour
         isShooting = true;
         if(Physics.Raycast(fpsCam.transform.position,fpsCam.transform.forward, out hit, range)){
             Debug.Log(hit.transform.name);
-            hit.transform.gameObject.GetComponent<Hitpoints>().TakeDamage(10);
+            var otherHealth = hit.transform.gameObject.GetComponentInParent<Hitpoints>();
+            if(otherHealth != null) {
+                otherHealth.TakeDamage(damage);
+            }
         }
     }
 }
