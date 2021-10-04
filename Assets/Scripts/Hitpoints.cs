@@ -15,7 +15,7 @@ public class Hitpoints : MonoBehaviour
 
         if(collision.gameObject.tag == "Explosion") {
             TakeDamage(50);
-            GameObject.FindGameObjectWithTag("HealthUI").GetComponent<Text>().text = "Health: 50";
+            Destroy(gameObject);
         }
     }
 

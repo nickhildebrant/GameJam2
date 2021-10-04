@@ -17,7 +17,7 @@ public class Gun : MonoBehaviour
     [SerializeField] private GameObject muzzleFlash;
 
     private bool isShooting = false;
-    private bool canShoot = true;
+    private bool canShoot = false;
     private float timer = 1f;
     public TimeManager timeManager;
 
