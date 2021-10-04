@@ -3,7 +3,7 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     [SerializeField]
-    private int damage = 10;
+    private int damage = 100;
     [SerializeField]
     private float range = 50;
     [SerializeField]
@@ -13,10 +13,12 @@ public class Gun : MonoBehaviour
     [SerializeField] private Transform gun;
     [SerializeField] private Transform muzzle;
 
-    [SerializeField] private GameObject hitEffect;
+    [SerializeField] private GameObject bullet;
     [SerializeField] private GameObject muzzleFlash;
 
     private bool isShooting = false;
+    private bool canShoot = true;
+    private float timer = 1f;
     public TimeManager timeManager;
 
     // Update is called once per frame
@@ -40,18 +42,32 @@ public class Gun : MonoBehaviour
             //gun.rotation.Set(0f, 0f, 0f, 0f);
             isShooting = false;
         }
+
+        if (!canShoot) {
+            timer -= Time.deltaTime;
+            if(timer <= 0f) {
+                canShoot = true;
+                timer = 1f;
+            }
+        }
     }
 
     private void Shoot(){
-        RaycastHit hit;
-        GetComponent<AudioSource>().Play();
-        isShooting = true;
-        Instantiate(muzzleFlash, muzzle.position, muzzle.rotation);
-        if(Physics.Raycast(fpsCam.transform.position,fpsCam.transform.forward, out hit, range)){
-            Instantiate(hitEffect, hit.transform.position, hit.transform.rotation);
-            var otherHealth = hit.transform.gameObject.GetComponentInParent<Hitpoints>();
-            if(otherHealth != null) {
-                otherHealth.TakeDamage(damage);
+        if (canShoot) {
+            canShoot = false;
+            RaycastHit hit;
+            GetComponent<AudioSource>().Play();
+            isShooting = true;
+            Instantiate(muzzleFlash, muzzle.position, muzzle.rotation);
+            GameObject newBullet = Instantiate(bullet, muzzle.position, muzzle.rotation);
+            newBullet.transform.forward = muzzle.forward;
+            newBullet.GetComponentInChildren<Rigidbody>().AddForce(transform.forward * 500);
+            if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) {
+                var otherHealth = hit.transform.gameObject.GetComponentInParent<Hitpoints>();
+                if (otherHealth != null) {
+                    Debug.Log("Hit zombie");
+                    otherHealth.TakeDamage(damage);
+                }
             }
         }
     }

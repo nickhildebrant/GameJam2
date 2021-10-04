@@ -1,25 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Hitpoints : MonoBehaviour
 {
-    private int health = 100;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int health = 100;
+    public int damageTaken = 5;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.transform.parent.gameObject != null && collision.gameObject.transform.parent.gameObject.tag == "Zombie") {
+            TakeDamage(damageTaken);
+            GameObject.FindGameObjectWithTag("HealthUI").GetComponent<Text>().text = "Health: " + health;
+        }
+
+        if(collision.gameObject.tag == "Explosion") {
+            TakeDamage(50);
+            GameObject.FindGameObjectWithTag("HealthUI").GetComponent<Text>().text = "Health: 50";
+        }
     }
 
     public void TakeDamage(int damage) {
         health -= damage;
 
-        if(health <= 0) Destroy(gameObject);
+        if (health <= 0) {
+            if (gameObject.tag != "Player") Destroy(gameObject);
+            else SceneManager.LoadScene("Intro");
+        }
     }
 }
