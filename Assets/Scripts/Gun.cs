@@ -12,6 +12,8 @@ public class Gun : MonoBehaviour
     [SerializeField] private Transform slide;
     [SerializeField] private Transform gun;
     [SerializeField] private Transform muzzle;
+
+    [SerializeField] private GameObject hitEffect;
     [SerializeField] private GameObject muzzleFlash;
 
     private bool isShooting = false;
@@ -46,7 +48,7 @@ public class Gun : MonoBehaviour
         isShooting = true;
         Instantiate(muzzleFlash, muzzle.position, muzzle.rotation);
         if(Physics.Raycast(fpsCam.transform.position,fpsCam.transform.forward, out hit, range)){
-            Debug.Log(hit.transform.name);
+            Instantiate(hitEffect, hit.transform.position, hit.transform.rotation);
             var otherHealth = hit.transform.gameObject.GetComponentInParent<Hitpoints>();
             if(otherHealth != null) {
                 otherHealth.TakeDamage(damage);

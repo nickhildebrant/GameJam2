@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 8b6a0443d28ad254b8b03ddd4bde8dfd, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -10263,7 +10263,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7337397674888453952, guid: 92969f45fb3099d4f8b7fcc853d11119, type: 3}
 --- !u!1 &491149684 stripped
@@ -18636,7 +18636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1370f71f178e4f342b3c4384587029b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 362.81934
+      value: 359
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1370f71f178e4f342b3c4384587029b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22580,7 +22580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8089
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalScale.z
@@ -22628,21 +22628,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114497868231759342, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: jumpStrength
-      value: 3.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114762042097486276, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: movementSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114963311885979670, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-      propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114963311885979670, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-      propertyPath: runSpeed
-      value: 18
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114963311885979670, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: runSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114497868231759342, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
 --- !u!1 &1070750706 stripped
 GameObject:
@@ -24792,7 +24793,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1099821451838209542, guid: 9cca04ff04e89394987d9a22f7fab71d, type: 3}
 --- !u!1001 &1167161168
@@ -31232,6 +31233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9cca04ff04e89394987d9a22f7fab71d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9cca04ff04e89394987d9a22f7fab71d, type: 3}
       propertyPath: m_Name
       value: house_type19
@@ -31567,6 +31572,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a1d40c5e7136e054fbcd97cfab669cdc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a1d40c5e7136e054fbcd97cfab669cdc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1d40c5e7136e054fbcd97cfab669cdc, type: 3}
       propertyPath: m_Name
@@ -33313,7 +33322,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4131111861625596692, guid: a38a2fe0265399c4ba1aae7bd393d74e, type: 3}
 --- !u!1 &1525315620 stripped
@@ -36668,6 +36677,7 @@ MonoBehaviour:
   slide: {fileID: 2042823354}
   gun: {fileID: 1704171983}
   muzzle: {fileID: 1634481100}
+  hitEffect: {fileID: 100002, guid: deae065280038074ca61e2130d04332c, type: 3}
   muzzleFlash: {fileID: 100002, guid: e840492206edf364baccc15150e2cc63, type: 3}
   timeManager: {fileID: 55232662}
 --- !u!82 &1704171985
@@ -42838,6 +42848,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd86acf5621bd734b9e2d1dc1c860314, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bd86acf5621bd734b9e2d1dc1c860314, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bd86acf5621bd734b9e2d1dc1c860314, type: 3}
